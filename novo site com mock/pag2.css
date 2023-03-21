@@ -31,16 +31,20 @@ main > p {
     margin-bottom: 30px;
     padding: 20px;
 }
-main > nav > a{
-    background-color: white;
-    max-width: 212px;
-    text-decoration: none;
+
+nav{
+    background-color: aliceblue;
+    padding: 10px 10px 10px 10px;   
     font-weight: bold;
-    color: black; 
-    
-    
-    
+    columns: 2;
+    margin: auto;
+
 }
-main > nav > a:hover{
-    text-decoration: underline;
+nav > li > a{
+    text-decoration: none; 
+    color: black;
+   
+}
+nav > li > a:hover{
+    background-color: rgba(165, 42, 42, 0.63);
 }

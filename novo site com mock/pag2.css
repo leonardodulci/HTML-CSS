@@ -32,9 +32,13 @@ main > span > ul > li{
     background-color: white;
     max-width: 212px;
     text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
     margin: auto;
 }
 main > span > ul {
+    
     
     columns: 2;
 }

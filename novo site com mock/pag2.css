@@ -1,0 +1,40 @@
+@charset "UFT-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+:root{
+    --fonte-título: 'anton';
+    --fonte-texto: 'roboto condensed', arial;
+    --fonte-especial: 'bebas neue'
+ 
+ }
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+header{
+    background-color: white;
+}
+header > h1{
+    font-family: var(--fonte-título); 
+    letter-spacing: 2px;
+    text-align: center;
+}
+main > p {
+    background-color: white;
+    font-family: var(--fonte-texto);
+    text-align: center;
+}
+main > span > ul > li{
+    background-color: white;
+    max-width: 212px;
+    text-align: center;
+    margin: auto;
+}
+main > span > ul {
+    
+    columns: 2;
+}

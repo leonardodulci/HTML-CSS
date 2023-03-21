@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+*{
+}
+body{
+    background-color: rgba(40, 40, 255, 0.61);
+   
+}
+h1 {font-family: 'Times New Roman', Times, serif;
+}

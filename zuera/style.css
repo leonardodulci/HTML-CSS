@@ -1,0 +1,33 @@
+@charset "UFT-8";
+body {
+
+    background-color: rgb(70, 70, 70);
+   
+
+
+     }
+h1 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(190, 190, 190); 
+    padding: 1em;
+    width: 5em;
+    text-align: center;
+   margin: auto;
+    
+     }
+     
+p{
+    color: aquamarine;
+}
+span{
+    background-color: blue;
+    outline: 5em;
+    color: darkorange;
+}
+span#principal{
+    background-color: aqua;
+    border: 2em;
+    margin: 2em;
+    color: black;
+}
+

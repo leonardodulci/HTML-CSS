@@ -28,7 +28,7 @@ main > p {
     font-family: var(--fonte-texto);
     text-align: center;
 }
-main > span > ul > li{
+main > nav > a{
     background-color: white;
     max-width: 212px;
     text-align: center;
@@ -37,8 +37,6 @@ main > span > ul > li{
     color: black;
     margin: auto;
 }
-main > span > ul {
-    
-    
+main > nav > a {
     columns: 2;
 }

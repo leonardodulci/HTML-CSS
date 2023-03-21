@@ -17,6 +17,7 @@ body{
 }
 header{
     background-color: white;
+    padding: 30px;
 }
 header > h1{
     font-family: var(--fonte-título); 
@@ -27,14 +28,19 @@ main > p {
     background-color: white;
     font-family: var(--fonte-texto);
     text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
 }
 main > nav > a{
     background-color: white;
     max-width: 212px;
-    text-align: center;
     text-decoration: none;
     font-weight: bold;
-    color: black;
+    color: black; 
     
-   
+    
+    
+}
+main > nav > a:hover{
+    text-decoration: underline;
 }

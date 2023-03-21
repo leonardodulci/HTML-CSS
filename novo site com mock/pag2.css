@@ -36,7 +36,5 @@ main > nav > a{
     font-weight: bold;
     color: black;
     margin: auto;
-}
-main > nav > a {
     columns: 2;
 }

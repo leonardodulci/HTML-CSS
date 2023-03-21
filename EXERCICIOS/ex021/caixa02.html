@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(155, 155, 155);
+            margin: 0px;
+        }
+        header{
+            background-color: rgb(109, 110, 110);
+            padding: 10px;
+            margin: 10px;
+        }
+        article{
+            background-color: grey;
+            padding: 1px;
+         
+        }
+        article > aside{
+            background-color: rgb(90, 89, 89);
+        }
+        nav{
+            background-color: rgb(78, 78, 78);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+           
+        }
+        h1{
+
+        }
+        nav > a{
+            color: white;
+            text-decoration: none;
+            font-weight: bolder;
+            margin-right: 30px;
+           
+            
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            
+        }
+        main{
+            border-radius: 15px;
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 10px;
+            
+        }
+        footer{
+        background-color: rgb(94, 94, 94);
+        color: white;
+        text-align: center;
+        padding: 4px;
+        margin: 0px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        #assuntos{
+            background-color: black;
+            color: white;
+            margin-bottom: 10px;
+            text-align: center;
+        
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>meu site</h1>
+        <nav>
+            <a href="https://github.com/leonardodulci/exemplos-de-caixas-box-level-e-inline-level/watchers" target="_blank" rel="external">Github</a> 
+            <a href="https://www.youtube.com/user/tvgaloweb/videos" target="_blank" rel="external">youtube da Galo Tv</a>
+            <a href="https://www.youtube.com/user/tvgaloweb/videos" target="_blank" rel="external">pagina que vai passar o jogo hoje</a>
+            <a href="https:www.wa.me/55061983529676" target="_blank" rel="external">chama no zap</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+           GALOOOO
+
+        </section>
+        <section id="notícias">
+            <article>
+                <h2>Notícias about the Brazil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium optio debitis sint! Libero in illo quisquam mollitia officia deserunt quibusdam perspiciatis sed omnis nemo. Expedita voluptatem distinctio veniam esse culpa.</p>
+                <aside>
+                    <p>Artigo escrito por leotruvs</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Léotruvs</p>
+    </footer>
+</body>
+</html>

@@ -19,7 +19,14 @@
             padding: 5px;
             
         }
-        
+        thead > tr > th{
+            color: white;
+        }
+        .media , thead{
+            background-color: grey;
+            font-weight: bold;
+            color: white;
+        }
     </style>
 </head>
 <body>
@@ -40,7 +47,7 @@
         </thead>
         <tbody>
             <tr>
-                <th howspan="4" scope="rowgroup">Exatas</th>
+                <th rowspan="4">Exatas</th>
                 <td>Matemática</td>
                 <td>5.4</td>
                 <td>7.0</td>
@@ -67,9 +74,25 @@
                 <td>4.5</td> 
             </tr>
             <tr>
-                <td colspan="4">Média de Exatas</td>
-                <td>5.88</td>
-
+                <td colspan="4" class="media">Média de Exatas</td>
+                <td class="media">5.88</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Humanas</th>
+                <td>História</td>
+                <td>6.7</td>
+                <td>8</td>
+                <td>7.25</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>7.5</td>
+                <td>6</td>
+                <td>6,75</td>
+            </tr>
+            <tr>
+                <td class="media" colspan="4">Média de Humanas</td>
+                <td class="media">7</td>
             </tr>
         </tbody>
     </table>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe#tela{
+            height: 400px;
+            width: 95vw;
+            border: 2px solid black;
+            margin: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem molestiae rerum quae quis praesentium distinctio officia? Ducimus sed ipsam amet est. Libero, assumenda deleniti. Sunt rem illo tempora ratione dicta.</p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">primeira pág</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">segunda pág</a></li>
+        <li><a href="paginas-extras/pag0003.html" target="frame">terceira pág</a></li>
+    </ul>
+
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus veritatis voluptas veniam hic, doloremque iure officiis voluptatum maiores illum ratione molestias at debitis pariatur illo quaerat nemo voluptate animi quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate excepturi id, facere, veritatis minima deleniti esse distinctio rerum sit eveniet iusto quae quos, odio ex perferendis debitis repellat dolorem ratione.</p>
+
+
+    <iframe srcdoc="<h1>escolha uma das opções:</h1> <p> Lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non aliquid hic nesciunt itaque deleniti ipsam corrupti maxime voluptate repellat, ex possimus magnam dolore sed repellendus autem aspernatur odit delectus excepturi? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, aliquid maxime incidunt accusamus totam aut sint eveniet? Harum animi exercitationem id aliquid, quae placeat eligendi quo velit repudiandae alias quam. </p> <img src='imagem/profile-pic.png'> " id="tela" name="frame">
+        <p>infelizmente seu navegador não é compatível com isso</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non aliquid hic nesciunt itaque deleniti ipsam corrupti maxime voluptate repellat, ex possimus magnam dolore sed repellendus autem aspernatur odit delectus excepturi? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, aliquid maxime incidunt accusamus totam aut sint eveniet? Harum animi exercitationem id aliquid, quae placeat eligendi quo velit repudiandae alias quam.</p>
+</body>
+</html>

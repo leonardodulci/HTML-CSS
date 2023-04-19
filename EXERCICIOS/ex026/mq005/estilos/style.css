@@ -3,3 +3,14 @@
 body{
     background-color: grey;
 }
+div {
+    display: none;
+}
+menu:hover div{
+    display: grid;
+
+}
+menu > p{
+    margin: 0px;
+    padding: 0px;
+}
